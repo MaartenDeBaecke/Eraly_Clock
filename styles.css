@@ -1,20 +1,25 @@
+body{
+  overflow-x: hidden !important;
+  margin: 0;
+}
 
 .container {
-  width: 100vw;
   text-align: center;
+  height: 74vh;
 }
 
 .head{
   height: 5rem;
   font-size: 1.9rem;
   margin-top: 26vh;
+
 }
 
 .clock{
   height: 10rem;
   margin-top: 3vh;
   font-size: 6rem;
-  width: 267px;
+  width: 27.45rem;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -28,21 +33,36 @@
   color: #808080;
   font-size: 1.1rem;
   margin-top: 5vh;
+  font-family: 'Vidaloka', serif;
 }
 
-.btn{
-  font-size: 0.8rem;
-  background-color: white;;
-  outline: none;
-  border: solid 1px #808080;
-  border-radius: 0;
+.container2{
+  height: 40vh;
+  background-color: #191919;
+  color: #e5e5e5;
+  margin-bottom: 30vh;
+  padding: 0;
+}
+
+.quote{
+  font-family: 'Vidaloka', serif;
+  font-size: 1.5rem;
+  padding: 40px;
+  line-height: 1.4;
+
+}
+
+.container3{
+  height: 80vh;
   color: #808080;
-  display: block;
-  margin: 1vh auto 0;
+  text-align: center;
 
 }
 
-.btn:active{
-  color: black;
-  border-color: black;
+.measures{
+  color: #808080;
+  font-size: 1.1rem;
+  margin-top: 5vh;
+  font-family: 'Vidaloka', serif;
+  line-height: 1.2;
 }

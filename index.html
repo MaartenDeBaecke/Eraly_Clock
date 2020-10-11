@@ -5,78 +5,9 @@
     <title></title>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript">
-      let x = 0;
-      let y = 0;
-      let s = 150;
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
 
-      let m = "00";
-      let h = "00";
-      let b = "1000x";
-
-      var count = 0,
-        time = 150;
-
-      function clickFunction() {
-        if (b === "1000x"){
-          b = "1x";
-          s = 150000;
-          time = s;
-          timeout();
-        } else {
-          b = "1000x";
-          s = 150;
-          time = s;
-          timeout();
-        }
-
-        countTextH = document.getElementById("btn");
-        countTextH.innerHTML = b;
-      }
-
-
-      function timeout() {
-        setTimeout(function () {
-            count += 1;
-
-            countTextM = document.getElementById("min");
-            countTextM.innerHTML = m;
-
-            countTextH = document.getElementById("hours");
-            countTextH.innerHTML = h;
-
-
-
-            y += 1;
-            if (y < 10){
-              m = "0" + y.toString();
-            } else if(y < 24) {
-              m = y.toString();
-            } else {
-              y = 0;
-              m = "00";
-              x += 1;
-
-              if (x < 10){
-                h = "0" + x.toString();
-              } else if (x < 24){
-                h = x.toString();
-              } else {
-                x = 0;
-                h = "00";
-              }
-            }
-
-            timeout();
-        }, time);
-      };
-      timeout();
-
-
-
-
-    </script>
-
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="container">
@@ -93,14 +24,35 @@
         <span id="min">
           00
         </span>
+        <span>
+          :
+        </span>
+        <span id="sec">
+          00
+        </span>
       </div>
       <footer class="footer">
-        Tommy-Eraly
-        <button onclick="clickFunction()" type="button" id="btn" class="btn" name="button">
-          1000x
-        </button>
+        Tommy-Eraly-Neumen
 
       </footer>
+    </div>
+    <div class="container2">
+      <p class="quote">
+        Thomas Eraly, <br />
+        better known as Tommy always said: <br/><br/>
+
+        My Time Will Come.</br/><br/>
+        Today, might be that day.
+      </p>
+    </div>
+
+    <div class="container3">
+      <p class="measures">
+        1 Neumen = 2.5 seconds<br/>
+        1 Eraly = 2.5 minutes<br/>
+        1 Tommy = 1 hour
+
+      </p>
     </div>
   </body>
 </html>
