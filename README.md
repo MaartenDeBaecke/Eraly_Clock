@@ -1,4 +1,10 @@
-# Eraly_Clock
-Experimental clock displays the time in Tommy-Eraly.
+# Eraly Clock
+This experimental clock converts the time to the diffrent time units invented by *Thomas Eraly*.
 
-A Time Unit inveted by Thomas Eraly. 2.5 minutes equal 1 eraly. 24 eralium equal 1 Tommy.
+
+
+1 Neumen = 2.5 seconds
+
+1 Eraly = 2.5 minutes
+
+1 Tommy = 1 hour
