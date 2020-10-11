@@ -8,3 +8,7 @@ This experimental clock converts the time to the time units invented by *Thomas 
 1 Eraly = 2.5 minutes
 
 1 Tommy = 1 hour
+
+
+https://maartendebaecke.github.io/Eraly_Clock/
+
