@@ -18,7 +18,7 @@ body{
   height: 10rem;
   margin-top: 3vh;
   font-size: 6rem;
-  width: 27.60rem;
+  width: 27.55rem;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -68,4 +68,37 @@ hr {
   margin-top: 5vh;
 
   line-height: 2;
+}
+
+/* Mobile */
+
+@media (pointer:none), (pointer:coarse) {
+
+  .head{
+    height: 15rem;
+    font-size: 4rem;
+  }
+
+  .clock{
+    font-size: 6.8rem;
+    margin-top: -2vh;
+    width: 32rem;
+  }
+
+  .footer{
+    font-size: 2.2rem;
+  }
+
+  hr {
+    width: 15vw;
+    border-top: dotted 12px #808080;
+  }
+
+  .quote{
+    font-size: 2.9rem;
+  }
+
+  .measures{
+    font-size: 2.5rem;
+  }
 }
