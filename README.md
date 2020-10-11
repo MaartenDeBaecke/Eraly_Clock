@@ -1,5 +1,5 @@
 # Eraly Clock
-This experimental clock converts the time to the diffrent time units invented by *Thomas Eraly*.
+This experimental clock converts the time to the time units invented by *Thomas Eraly*.
 
 
 
