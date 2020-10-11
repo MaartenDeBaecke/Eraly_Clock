@@ -31,17 +31,23 @@ body{
 
 .footer{
   color: #808080;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin-top: 5vh;
   font-family: 'Vidaloka', serif;
 }
 
+hr {
+  width: 10vw;
+  border-top: dotted 9px #808080;
+  border: dotted none none none;
+
+}
+
 .container2{
   height: 40vh;
-  background-color: #191919;
-  color: #e5e5e5;
   margin-bottom: 30vh;
   padding: 0;
+  text-align: center;
 }
 
 .quote{
@@ -49,19 +55,17 @@ body{
   font-size: 1.5rem;
   padding: 40px;
   line-height: 1.4;
-
+  color: 	#101010;
 }
 
 .container3{
-  height: 80vh;
-  color: #808080;
+  height: 90vh;
   text-align: center;
-
 }
 
 .measures{
-  color: #808080;
-  font-size: 1.1rem;
+  color: #101010;
+  font-size: 1.2rem;
   margin-top: 5vh;
   font-family: 'Vidaloka', serif;
   line-height: 2;
