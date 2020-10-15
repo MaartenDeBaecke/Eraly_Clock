@@ -11,11 +11,12 @@ let min;
 
 setInterval(function() {
   t = new Date();
-  sec = t.getSeconds();
-  z = Math.floor(sec/6.25);
   x = t.getHours();
   min = t.getMinutes();
   y = Math.floor(min / 2.5) + x * 24;
+  sec = t.getSeconds();
+  console.log(Math.floor((min/2.5) % 1) * 24);
+  z = (Math.round(((min/2.5) % 1) * 24) + Math.floor(sec/6.25));
 
   z < 10 ? s = "0" + z.toString() : s = z.toString();
 
@@ -27,11 +28,10 @@ setInterval(function() {
      m = y.toString();
   }
 
-
   countTextS = document.getElementById("sec");
   countTextS.innerHTML = s;
 
   countTextM = document.getElementById("min");
   countTextM.innerHTML = m;
 
-}, 30);
+}, 2500);
