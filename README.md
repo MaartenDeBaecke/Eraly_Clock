@@ -3,11 +3,10 @@ This experimental clock converts the time to the time units invented by *Thomas 
 
 
 
-1 Neumen = 2.5 seconds
+1 Tommy = 6.25 seconds
 
 1 Eraly = 2.5 minutes
 
-1 Tommy = 1 hour
 
 
 https://maartendebaecke.github.io/Eraly_Clock/
