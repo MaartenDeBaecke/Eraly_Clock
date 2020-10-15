@@ -34,4 +34,4 @@ setInterval(function() {
   countTextM = document.getElementById("min");
   countTextM.innerHTML = m;
 
-}, 2500);
+}, 20);
