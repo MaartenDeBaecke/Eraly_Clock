@@ -3,7 +3,6 @@ let y;
 let z;
 
 let m = "00";
-let h = "00";
 let s = "00";
 
 let t;
@@ -13,14 +12,20 @@ let min;
 setInterval(function() {
   t = new Date();
   sec = t.getSeconds();
-  z = Math.floor(sec/2.5);
-  min = t.getMinutes();
-  y = Math.floor(min / 2.5);
+  z = Math.floor(sec/6.25);
   x = t.getHours();
+  min = t.getMinutes();
+  y = Math.floor(min / 2.5) + x * 24;
 
   z < 10 ? s = "0" + z.toString() : s = z.toString();
-  y < 10 ? m = "0" + y.toString() : m = y.toString();
-  x < 10 ? h = "0" + x.toString() : h = x.toString();
+
+  if (y < 10){
+    m = "00" + y.toString();
+  } else if (y < 100){
+    m = "0" + y.toString();
+  } else {
+     m = y.toString();
+  }
 
 
   countTextS = document.getElementById("sec");
@@ -29,6 +34,4 @@ setInterval(function() {
   countTextM = document.getElementById("min");
   countTextM.innerHTML = m;
 
-  countTextH = document.getElementById("hours");
-  countTextH.innerHTML = h;
-}, 100);
+}, 30);
