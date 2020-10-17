@@ -16,7 +16,7 @@ setInterval(function() {
   y = Math.floor(min / 2.5) + x * 24;
   sec = t.getSeconds();
   console.log(Math.floor((min/2.5) % 1) * 24);
-  z = (Math.round(((min/2.5) % 1) * 24) + Math.floor(sec/6.25));
+  z = (Math.floor(((min/2.5) % 1) * 24) + Math.floor(sec/6.25));
 
   z < 10 ? s = "0" + z.toString() : s = z.toString();
 
